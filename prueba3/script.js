@@ -16,12 +16,6 @@ function validar()
             document.formulario.txa_rut.focus()
             return false
         }
-        if(guion1 != ("-"))
-        {
-            alert("rut incorrecto favor verificar guion")
-            document.formulario.txa_rut.focus()
-            return false
-        }
         if(cell <9)
         {
             alert("Telefonoi debe tener 9 digitos")
